@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tables</title>
+
+<style>
+body{
+font-family: Arial, sans-serif;
+}
+
+table{
+border-collapse: collapse;
+width: 80%;
+margin: 20px auto;
+}
+
+th, td{
+border: 1px solid black;
+padding: 8px;
+text-align: center;
+}
+
+.vertical{
+writing-mode: vertical-rl;
+text-orientation: upright;
+font-weight: bold;
+}
+
+h3{
+text-align:center;
+}
+</style>
+
+</head>
+<body>
+
+<h3>iii. My First Table</h3>
+
+<table>
+<tr>
+<th>Monday</th>
+<th>Tuesday</th>
+<th>Wednesday</th>
+<th>Thursday</th>
+<th>Friday</th>
+</tr>
+
+<tr>
+<td>SCS101</td>
+<td>SCS104</td>
+<td>SCS105</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+<td>SCS104</td>
+<td></td>
+<td>SCS105</td>
+</tr>
+
+<tr>
+<td></td>
+<td>SCS101</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>SCS101</td>
+<td></td>
+<td></td>
+<td>SCS102</td>
+<td>SCS102</td>
+</tr>
+
+</table>
+
+
+<h3>iv. My Second Table</h3>
+
+<table>
+
+<tr>
+<th>Monday</th>
+<th>Tuesday</th>
+<th>Wednesday</th>
+<th>Thursday</th>
+<th>Friday</th>
+</tr>
+
+<tr>
+<td rowspan="2">SCS101</td>
+<td>SCS104</td>
+<td>SCS105</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td colspan="2">SCS104</td>
+<td></td>
+<td>SCS105</td>
+</tr>
+
+<tr>
+<td></td>
+<td colspan="4">SCS101</td>
+</tr>
+
+<tr>
+<td>SCS101</td>
+<td></td>
+<td></td>
+<td>SCS102</td>
+<td>SCS102</td>
+</tr>
+
+</table>
+
+
+<h3>v. My Third Table</h3>
+
+<table>
+
+<tr>
+<th>Monday</th>
+<th>Tuesday</th>
+<th>Wednesday</th>
+<th>Thursday</th>
+<th>Friday</th>
+</tr>
+
+<tr>
+<td rowspan="2">SCS101</td>
+<td>SCS104</td>
+<td>SCS105</td>
+<td>i. Eat</td>
+<td></td>
+</tr>
+
+<tr>
+<td colspan="2">SCS104</td>
+<td>ii. Sleep</td>
+<td>SCS105</td>
+</tr>
+
+<tr>
+<td></td>
+<td>SCS101</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>SCS101</td>
+<td></td>
+<td></td>
+<td>SCS102</td>
+<td>SCS102</td>
+</tr>
+
+</table>
+
+
+<h3>vi. My Fourth Table</h3>
+
+<table>
+
+<tr>
+<th>Monday</th>
+<th>Tuesday</th>
+<th></th>
+<th>Wednesday</th>
+<th></th>
+<th>Thursday</th>
+<th>Friday</th>
+</tr>
+
+<tr>
+<td>SCS101</td>
+<td>SCS104</td>
+<td class="vertical" rowspan="2">BREAK</td>
+<td>SCS105</td>
+<td class="vertical" rowspan="2">LUNCH</td>
+<td rowspan="2">SCS102</td>
+<td></td>
+</tr>
+
+<tr>
+<td>SCS111</td>
+<td></td>
+<td>SCS104</td>
+<td>SCS105</td>
+</tr>
+
+</table>
+
+</body>
+</html>
